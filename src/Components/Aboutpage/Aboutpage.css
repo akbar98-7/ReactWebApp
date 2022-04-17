@@ -1,0 +1,61 @@
+body {
+    background-color: white;
+}
+
+.features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+}
+
+.feature-title {
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    position: relative;
+
+
+}
+
+.row {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.features.img {
+    margin-bottom: 25px;
+}
+
+h1.thin {
+    border-bottom: 1px solid blue;
+    box-shadow: 0 1px 0 red;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+}
+
+p.center1 {
+    width: 95%;
+    margin: auto;
+}
+
+.btn {
+    background-color: #589b37;
+    border: 1px solid #589b37;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+}
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}
