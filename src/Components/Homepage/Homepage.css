@@ -23,7 +23,7 @@ body {
 }
 
 .header {
-    background-image: url(/public/Assets/Images/architect.jpg);
+    background-image: url(/public/Images/architect.jpg);
     background-size: cover;
     background-position: center;
     min-height: 60vh;

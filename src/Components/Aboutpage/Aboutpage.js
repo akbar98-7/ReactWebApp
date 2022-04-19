@@ -1,29 +1,15 @@
 import React from 'react'
 import './Aboutpage.css';
+import { Header } from '../Header/Header';
 
 
 export const Aboutpage = () => {
   return (
     <div>
 
-    <nav className='navbar navbar-expand-md'>
-        <a className='navbar-brand' href='#'><h3>BR Architects</h3></a>
-        <button className='navbar-toggler navbar-dark' type='button' data-toggle="collapse" data-target="#main-navigation">
-            <span className='navbar-toggler-icon'></span>
-        </button>
+<Header/>
 
-        <div class="collapse navbar-collapse" id="main-navigation">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-
-                    <a class="nav-link" href="Homepage"><h4>Home</h4></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Aboutpage"><h4>About</h4></a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    
 
     <h1 class="thin">About Us</h1>
     <br></br>
